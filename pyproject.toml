@@ -1,0 +1,14 @@
+[project]
+name = "france-inflation-data-cleaned"
+version = "0.1.0"
+description = "Données d'inflation en France à partir de 1990, nettoyées et catégorisées à partir des données INSEE, avec scripts de traitement pour faciliter l'accès et l'analyse."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "ReinforcedKnowledge", email = "reinforced.knowledge@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+]
