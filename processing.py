@@ -145,10 +145,13 @@ def main():
     df = pd.read_excel(
         "donnees_brutes.xlsx",
         usecols=lambda x: x
-        not in ["idBank", "Dernière mise à jour", "Période"],
+        not in {"idBank", "Dernière mise à jour", "Période"},
+        dtype={"Libellé": str},
     )
 
-    df = df.convert_dtypes()
+    pattern = r"^(199[0-9]|20[0-9][0-9])-(0[1-9]|1[0-2])$"
+    date_columns = df.columns[df.columns.str.match(pattern)]
+    df[date_columns] = df[date_columns].apply(pd.to_numeric, errors="coerce")
 
     household = categorize_household(df)
     region = categorize_region(df)
