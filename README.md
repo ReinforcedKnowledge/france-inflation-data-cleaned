@@ -27,16 +27,16 @@ Les jeux de données traités reflètent ainsi mes propres besoins et ne convien
 # Convention de nommage des fichiers
 
 Les fichiers de données suivent une convention de nommage qui permet de comprendre les informations qu'ils contiennent. Chaque fichier est nommé sous la forme :  
-`<Catégorie de ménage>_<Région>_<Type d'indice>_<Nomenclature ou NonNomenclature>.csv`
+`<Catégorie de ménage>_<Région>_<Type d'indice>_<Type de variation>_<Nomenclature ou NonNomenclature>.csv`
 
 Par exemple :  
-**Menages_urbains_dont_le_chef_est_ouvrier_ou_employe_France_IPC_Nomenclature.csv** signifie :
+**Menages_urbains_dont_le_chef_est_ouvrier_ou_employe_France_IPC_Glissement_annuel_Nomenclature.csv** signifie :
 - Le type de ménage étudié est "Ménages urbains dont le chef est ouvrier ou employé"
-- Les données sont l'IPC (indice des prix à la consommation)
+- Les données sont le glissement annuel de l'IPC (indice des prix à la consommation)
 - Elles concernent la France entière
 - Les produits étudiés sont définis par la nomenclature COICOP
 
-Un autre exemple, **Ensemble_des_menages_Guyane_IPC_NonNomenclature.csv**, indiquerait :
+Un autre exemple, **Ensemble_des_menages_Guyane_IPC_None_NonNomenclature.csv**, indiquerait :
 - Le type de ménage est "Ensemble des ménages"
 - La région concernée est la Guyane
 - Les données correspondent à l'IPC
