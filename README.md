@@ -12,7 +12,7 @@ Cependant, l'INSEE ne fournit pas toujours les jeux de données sous une forme c
 
 # Mise à jour des données
 
-Les données disponibles dans ce dépôt sont extraites de la page de l'INSEE mentionnée ci-dessus, et correspondent à l'état des données au **27 septembre 2024**. Ce dépôt sera mis à jour à chaque nouvelle publication des données par l'INSEE.
+Les données disponibles dans ce dépôt sont extraites de la page de l'INSEE mentionnée ci-dessus, et correspondent à l'état des données au **15 octobre 2024**. Ce dépôt sera mis à jour à chaque nouvelle publication des données par l'INSEE.
 
 # Traitement des données
 
@@ -50,6 +50,6 @@ Cette convention de nommage permet de rapidement identifier le contenu de chaque
 - J'ai également exclu les données dont la base de calcul n'est pas l'année 2015 (comme les anciennes bases 100).
 - Mon objectif était de simplifier et de nettoyer les données pour un usage plus spécifique, en éliminant des informations que je jugeais inutiles dans mon contexte.
 
-# License
+# Licence
 
 Ce dépôt est distribué sous licence MIT. Les données brutes proviennent de l'INSEE, un organisme public français, et sont redistribuées ici sous forme brute et sous une forme traitée à des fins de commodité.
