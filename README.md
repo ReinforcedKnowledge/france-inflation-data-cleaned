@@ -21,6 +21,7 @@ Les jeux de données fournis dans ce dépôt résultent de mes propres besoins. 
 - **Colonnes supprimées** : J'ai retiré les colonnes `idBank`, `Dernière mise à jour`, et `Période`, qui pourraient intéresser certains utilisateurs mais qui n'étaient pas pertinentes pour mon cas d'usage.
 - **Conversion des données** : Toutes les colonnes numériques ont été converties en valeurs numériques pour traiter les valeurs manquantes de manière cohérente.
 - **Catégorisation** : J'ai ajouté plusieurs colonnes pour catégoriser les données selon le type de ménages, les départements, les types d'indices (glissement annuel, variations mensuelles, etc.) et si les produits suivent la nomenclature COICOP. J'ai également filtré les lignes où l'indice est basé sur des bases autres que l'année 2015 ou où les données sont marquées comme "série arrêtée" (par exemple, pour la région de Mayotte, toutes les données sont arrêtées et donc non incluses dans mes jeux de données).
+- **Calculs** : J'ai aussi calculé les glissement annuels et variations mensuelles pour l'ensemble des ménages pour les départements suivantes : Guadeloupe, Guyane, La Réunion, Martinique, car ces données manquaient dans le jeu de données officiel.
 
 Les jeux de données traités reflètent ainsi mes propres besoins et ne conviendront peut-être pas à tous les usages.
 
@@ -48,6 +49,7 @@ Cette convention de nommage permet de rapidement identifier le contenu de chaque
 
 - Les données pour les séries arrêtées, comme celles pour **Mayotte**, ne sont pas incluses.
 - J'ai également exclu les données dont la base de calcul n'est pas l'année 2015 (comme les anciennes bases 100).
+- Les glissements annuels et variations mensuelles pour l'Indice des Prix à la Consommation pour l'ensemble des ménages des départements Guadeloupe, Guyane, La Réunion, Martinique ont été manuellement calculés. 
 - Mon objectif était de simplifier et de nettoyer les données pour un usage plus spécifique, en éliminant des informations que je jugeais inutiles dans mon contexte.
 
 # Licence
