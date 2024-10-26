@@ -25,6 +25,7 @@ def compute_variation(
         period = 1
         variation_name = "Variations_mensuelles"
     period_over_period = df.pct_change(periods=period, axis=1) * 100
+    period_over_period = period_over_period.reset_index()
     output_filename = filename.replace("None", variation_name)
     period_over_period.to_csv(data_folder / output_filename, index=False)
     print(f"Saved computed {variation_name} data for {index_type} for {region}")
