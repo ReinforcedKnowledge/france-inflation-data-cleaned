@@ -52,6 +52,10 @@ Cette convention de nommage permet de rapidement identifier le contenu de chaque
 - Les glissements annuels et variations mensuelles pour l'Indice des Prix à la Consommation pour l'ensemble des ménages des départements Guadeloupe, Guyane, La Réunion, Martinique ont été manuellement calculés. 
 - Mon objectif était de simplifier et de nettoyer les données pour un usage plus spécifique, en éliminant des informations que je jugeais inutiles dans mon contexte.
 
+# Annexe
+
+Ces données sont utilisées dans [inflacon](https://github.com/ReinforcedKnowledge/inflacon) pour le calculateur de l'effet de l'inflation sur l'augmentation salariale et sur le budget, ainsi que dans le tableau de bord pour visualiser les différentes variations de l'indice sur différents ménages, produits et départements.
+
 # Licence
 
 Ce dépôt est distribué sous licence MIT. Les données brutes proviennent de l'INSEE, un organisme public français, et sont redistribuées ici sous forme brute et sous une forme traitée à des fins de commodité.
